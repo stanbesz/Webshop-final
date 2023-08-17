@@ -1,0 +1,35 @@
+
+div.dataTables_wrapper div.dataTables_length label{
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    width: 100px;
+}
+div.dataTables_wrapper div.dataTables_length #text{
+    color:red;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    font-weight: normal;
+    text-align: right;
+    white-space: nowrap;
+}
+div.dataTables_wrapper div.dataTables_filter label{
+    font-weight: normal;
+    text-align: right;
+    white-space: nowrap;
+    
+}
+.pagination{
+    text-align: right;
+    margin-right: 0;
+}
+.dataTables_paginate{
+    text-align: right;
+}
+ul.pagination{
+    text-align: right;
+    float:right;
+}
+@media screen and (max-width: 767px){ div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+    text-align: center;
+}}

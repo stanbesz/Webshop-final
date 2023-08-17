@@ -1,0 +1,12 @@
+#imagePreview{
+    width:350px;
+    height:250px;
+
+    display:flex;
+    align-items:center;
+    color:#c2bbba;
+}
+#image_preview_image{
+    display: none;
+    width: 100%;
+}
